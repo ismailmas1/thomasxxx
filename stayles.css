@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+Body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*header Start*/
+header {
+    height: 100vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1377624283672613034/1377650249178284082/ezgif-21dc2a77c5482b.gif?ex=685dfd86&is=685cac06&hm=3fb02f5202fc6132caffc6426ba053067dc08a079f1cc7272e0b583600575fa3);
+    background-repeat: no-repeat;
+    background-size: cover; background-position: center;
+    
+}
+.gg {
+    border-radius: 50px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+}
+
+#navbar img {
+    width: 50px;
+    margin-left: 150px;
+    margin-right: 20px;
+   
+    
+}
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+    margin: 30px;
+}
+#navbar ul li a {
+    padding: 10px 30px;
+    color: aliceblue;
+    font-weight: 600;
+    
+}
+#navbar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+header .content h1 {
+    font-size: 35px;
+    color: aliceblue;
+}
+header .content p {
+    margin: 20px 0 40px;
+    color: antiquewhite;
+}
+header .content h1 span {
+    color: #e4b95b;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+header *{
+    z-index: 10;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+
+}
+.btn-primary {
+    color: aliceblue;
+    border: 1px solid #fff;
+}
+.btn-primary:hover{
+    background-color: #e4b95b;
+}
+/*header End*/
+/*Abute Stard*/
+
+#About  {
+background-image: url(https://i.pinimg.com/736x/03/ea/73/03ea737f1ac616913f50cf36ee4c0b16.jpg);
+background-repeat: no-repeat;
+height: 80vh;
+background-position: center;
+background-size: cover;
+}
+.texta {
+text-align: left;
+position: absolute;
+top: 750px;
+padding-right: 500px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 700;
+margin-right: 100px;
+margin: 30px;
+color: #fff;
+}
+
+.imag5 {
+    position: absolute;
+    left: 950px;
+    top: 650px;
+    
+}
+main::before {
+    content: "";
+    position: absolute;
+    top: 700;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+main *{
+    z-index: 10;
+}
+
+/*Abute End*/
+/*Roules Start*/
+#Team {
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+}
+
+.imag8 {
+   border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
+.imag11{
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 900px;
+}
+.imag12 {
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+#Team .contant h2 {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 1360px;
+    left: 627px;
+}
+#Team .contant p {
+    color: #fff;
+    position: absolute;
+    top: 1379px;
+    left: 610px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Team .contant .KK1 {
+    color: #fff;
+    position: absolute;
+    top: 1555px;
+    left: 270px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Team .contant .KK {
+    color: #fff;
+    position: absolute;
+    top: 1550px;
+    left: 880px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+#Team .contant .XX1 {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 1530px;
+    left: 947px;
+} 
+#Team .contant .XX {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 1535px;
+    left: 344px;  
+}
+/*Rouls End*/
+/*gallery Stard*/
+#gallery {
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery .gallery1 .gallery2 img {
+    width: 25%;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 156px;
+    top: 20px;
+}
+#gallery .gallery1 .gallery2 img:hover {
+    border:  solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#gallery .gallery1 .gallery2 h2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+#Whitlist {
+    height: 20vh;
+    background-color: rgb(54, 122, 122);
+}
+
+/*gallery End*
+/*contact Start*/
+
+#Whitlist .content .jj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
+#Whitlist .content i {
+    color: #080808;
+    margin: 20px 0;
+    padding: 20px;
+    
+}
+#Whitlist .content i:hover {
+    color: rgb(255, 0, 0);
+    border-bottom: 20px;
+}
+/*cobtact End*/
+
+@media (max-width: 1000px) {
+    
+   #navbar  {
+        display: block;
+}
+#navbar img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 330px;
+        top: 15px;
+}
+#navbar ul li a {
+position: relative;
+left: 180px;
+    
+}
+header .content h1 {
+    font-size: 25px;
+    text-align: center;
+} 
+header .content p {
+    font-size: 15px;
+
+}
+header .content p {
+    text-align: center;
+    padding-left: 300px;
+    position: relative;
+    left: -130px;
+}
+.texta { 
+position: absolute;
+top: 1150px;
+padding-right: 100px;
+font-weight: 1000;
+margin-right: 150px;
+margin: 50px;
+padding-left: 150px;
+
+
+}
+ .imag5 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 350px;
+    top: 1500px;   
+}
+.imag8  {
+    position: relative;
+    top: 50px;
+    left: 440px;
+    height: 15vh;
+    width: 15ch;
+}
+.imag12 {
+    position: relative;
+    top: 320px;
+    left: 450px;
+    height: 15vh;
+    width: 15ch;
+}
+.imag11 {
+    position: relative;
+    top: 200px;
+    left: 440px;
+    height: 15vh;
+    width: 15ch;
+}
+#Team .contant h2 {
+    position: absolute;
+    top: 2230px;
+    left: 470px;
+    height: 15vh;
+    width: 15ch;
+}
+#Team .contant p {
+    position: absolute;
+    top: 2260px;
+    left: 450px;
+    height: 15vh;
+    width: 15ch;  
+}
+#Team .contant .KK1 {
+    position: absolute;
+    top: 2590px;
+    left: 440px;
+    text-align: center;
+    
+}
+#Team .contant .KK {
+    position: absolute;
+    top: 2870px;
+    left: 450px;
+    text-align: center; 
+}
+#Team .contant .XX1 {
+    position: absolute;
+    top: 2840px;
+    left: 500px;
+    height: 15vh;
+    width: 15ch;
+}
+#gallery {
+    height: 230vh;
+}
+#gallery .gallery1 .gallery2 img {
+    display: block;
+    margin: 5px;
+    width: 50vh;
+    position: relative;
+    left: 230px;
+    margin-top: 100px;
+}
+#gallery .gallery1 .gallery2 h2 {
+    position: absolute;
+    left: 400px;
+    top: 3000px;
+}
+#Team .contant .XX {
+    position: absolute;
+    top: 2560px;
+    left: 480px;
+    height: 15vh;
+    width: 15ch;
+}
+#Whitlist .content i {
+    margin: 40px 0;
+    padding: 30px;
+}
+}
+@media (max-width: 600px) {
+    body {
+        display: block;
+    }
+ #navbar img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 100px;
+        top: 15px;
+}
+#navbar ul li a {
+position: relative;
+left: 49px;
+font-size: 20px;
+padding: 5px 10px;
+    
+}   
+header .content h1  {
+    font-size: 30px;
+    position: absolute;
+    left: 65px;
+    top: 400px;
+}
+header .content p {
+    text-align: center;
+    padding-left: 300px;
+    position: relative;
+    left: -150px;
+    top: -6%;
+}
+.btn {
+    position: relative;
+    left: 10px;
+    top: -7%;
+}
+#About {
+    height: 20vh;
+}
+.texta { 
+text-align: center;
+margin: -100px;
+padding: -150px;
+position: absolute;
+top: 1260px;
+font-size: 11px;
+left: 122px;
+padding-left: 10px;
+}
+ .imag5 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 150px;
+    top: 1265px;  
+    display: none; 
+}   
+
+.imag8  {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    height: 15vh;
+    width: 15ch;
+}
+.imag12 {
+    position: relative;
+    top: 280px;
+    left: 220px;
+    height: 15vh;
+    width: 15ch;
+}
+.imag11 {
+    position: relative;
+    top: 170px;
+    left: 200px;
+    height: 15vh;
+    width: 15ch;
+}
+#Team .contant h2 {
+    position: absolute;
+    top: 1565px;
+    left: 230px;
+    height: 15vh;
+    width: 15ch;
+}
+#Team .contant p {
+    position: absolute;
+    top: 1590px;
+    left: 210px;
+    height: 15vh;
+    width: 15ch;  
+}
+#Team .contant .KK1 {
+    position: absolute;
+    top: 2200px;
+    left: 227px;
+    text-align: center;
+    
+}
+#Team .contant .KK {
+    position: absolute;
+    top: 1900px;
+    left: 210px;
+    text-align: center; 
+}
+#Team .contant .XX1 {
+    position: absolute;
+    top: 2160px;
+    left: 260px;
+    height: 15vh;
+    width: 15ch;
+    font-size: 20px;
+}
+#Team .contant .XX {
+    position: absolute;
+    top: 1860px;
+    left: 245px;
+    height: 15vh;
+    width: 15ch;
+    font-size: 20px;
+}
+#gallery {
+    height: auto;
+}
+#gallery .gallery1 .gallery2 img {
+    display: block;
+    margin: 40px;
+    width: 40vh;
+    position: relative;
+    left: 30px;
+}
+#gallery .gallery1 .gallery2 h2 {
+    position: absolute;
+    left: 220px;
+    top: 2320px;
+    font-size: 30px;
+    
+}
+#Whitlist .content i {
+    position: relative;
+    left: -10px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+#Whitlist {
+    height: 10vh;
+    width: 100%;
+}
+}
+
+
+
+
